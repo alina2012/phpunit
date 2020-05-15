@@ -20,7 +20,7 @@ class SumTest extends \PHPUnit\Framework\TestCase
     public function sumProvider() {
         return [
             [3],
-            [1],
+            [3],
         ];
     }
 }
