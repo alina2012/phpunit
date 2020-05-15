@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-	$db = mysqli_connect ("localhost:3308","root","", "shop");
+	$db = mysqli_connect ("localhost:3306","admin","pass", "shop");
 	mysqli_query($db, "SET NAMES utf8");
 class Name
 {
